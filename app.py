@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 """
-# Zoologist front
+# Zoologist
 """
 
 # st.markdown(
