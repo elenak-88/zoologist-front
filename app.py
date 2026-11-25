@@ -12,7 +12,7 @@ Remember that there are several ways to output content into your web page...
 Either like the title above by just creating a string (or an f-string) starting. Or like this paragraph using the `st.` function.
 """
 )
-
+st.image("https://wagon-public-datasets.s3.amazonaws.com/05-Machine-Learning/01-Fundamentals-of-Machine-Learning/palmer-penguins.png")
 
 ## User inputs
 island = st.selectbox("Island", ["Biscoe", "Dream", "Torgersen"])
