@@ -24,7 +24,8 @@ sex = st.radio("Sex", ["Male", "Female"])
 
 ## Call the API
 #url = "http://localhost:8000/predict"
-url = "https://zoologist-987549513572.europe-west1.run.app/predict"
+url = st.secrets['API_URL']
+#url = "https://zoologist-987549513572.europe-west1.run.app/predict"
 
 if st.button("Predict species"):
     params = {
